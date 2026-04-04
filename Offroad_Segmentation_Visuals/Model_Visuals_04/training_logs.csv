@@ -1,0 +1,2 @@
+Epoch,Train_Loss,Val_Loss,Mean_IoU,Trees,Lush_Bushes,Dry_Grass,Dry_Bushes,Ground_Clutter,Flowers,Logs,Rocks,Landscape,Sky
+1,37.7125,26.7195,0.6622,0.8512,0.7093,0.7075,0.5012,0.3718,0.6770,0.5876,0.5310,0.7018,0.9833
