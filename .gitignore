@@ -17,7 +17,7 @@
 *.pth
 *.pt
 *.bin
-*.safetensors
+
 
 # Python
 __pycache__/
