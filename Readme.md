@@ -92,7 +92,7 @@ Offroad_Segmentation_testImages/
 └── Segmentation/            # 1,002 test ground truth masks
 ```
 
-> ⚠️ **Important:** Using any test images during training is strictly prohibited and will result in disqualification.
+
 
 ---
 
