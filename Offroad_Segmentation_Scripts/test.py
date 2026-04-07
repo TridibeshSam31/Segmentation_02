@@ -184,7 +184,7 @@ def evaluate_model(model_dir, test_img_dir, test_mask_dir):
 if __name__ == "__main__":
     # --- UPDATE THESE PATHS ---
     MODEL_DIR = MODEL_DIR = r"C:\Users\Tridibesh Samantroy\OneDrive\Desktop\IIT\Offroad_Segmentation_Scripts\best_offroad_model_refined"
-    TEST_IMG_DIR = TEST_IMG_DIR = r"C:\Users\Tridibesh Samantroy\OneDrive\Desktop\IIT\Offroad_Segmentation_Training_Dataset\val\Color_Images"
-    TEST_MASK_DIR = TEST_MASK_DIR = r"C:\Users\Tridibesh Samantroy\OneDrive\Desktop\IIT\Offroad_Segmentation_Training_Dataset\val\Segmentation"
+    TEST_IMG_DIR = TEST_IMG_DIR = r"C:\Users\Tridibesh Samantroy\OneDrive\Desktop\IIT\Offroad_Segmentation_testImages\Color_Images"
+    TEST_MASK_DIR = TEST_MASK_DIR = r"C:\Users\Tridibesh Samantroy\OneDrive\Desktop\IIT\Offroad_Segmentation_testImages\Segmentation"
     
     evaluate_model(MODEL_DIR, TEST_IMG_DIR, TEST_MASK_DIR)
