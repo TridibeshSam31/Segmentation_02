@@ -2,6 +2,7 @@
 *.png
 *.jpg
 *.jpeg
+!confusion_matrix*.png
 
 # BUT allow model visuals images
 !Offroad_Segmentation_Visuals/
