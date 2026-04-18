@@ -22,7 +22,7 @@
 | Label coverage | **100%** of pixels are labeled (no ignore regions) |
 
 > [!CAUTION]
-> **Critical Finding**: The test set is missing 3 classes entirely — **Ground Clutter, Flowers, and Logs have zero pixels** in all 1,002 test images. This means the test set **cannot evaluate** the two classes you care about most. Any IoU numbers for these classes from the test set are meaningless.
+> **Critical Finding**: The test set is missing 3 classes entirely — **Ground Clutter, Flowers, and Logs have zero pixels** in all 1,002 test images. This means the test set **cannot evaluate** the two classes you care about most. Any IoU numbers for these classes from the test set are meaningless and can not be used.
 
 > [!WARNING]
 > **Severe Class Imbalance**: Logs occupy only **0.078%** of training pixels — a **483× imbalance** vs. the most common class (Sky at 37.6%). Ground Clutter is at 4.4% but is a weak class for other reasons (boundary confusion with Dry Grass and Landscape).
